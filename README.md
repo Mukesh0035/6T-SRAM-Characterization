@@ -60,13 +60,6 @@ Static RAM stores data in a **bistable latch** rather than on a capacitor, elimi
 3. Add **Global Variables**: `VDD = {0.9, 1.0, 1.1}` V; `TEMP = {-40, 25, 125}` °C.  
 4. Run **Multi-Test** sweep; ADE labels results per corner automatically.
 
-> *Image placeholder*  
-> `![Corner Analysis](doc/images/corner_sweep Key Metrics Captured
-* `read_snm`  – via DC sweep with WL = VDD.  
-* `hold_snm`  – WL = 0 V.  
-* `write_margin` – BL pulled low until cell flips.  
-* `iread`      – current through access NMOS during read.  
-* `ileak`      – standby leakage at each corner.
 
 ## 7  |  Typical Results (GPDK-45 nm)
 
@@ -78,9 +71,10 @@ Static RAM stores data in a **bistable latch** rather than on a capacitor, elimi
 | Iread | 71 | 38 (SS, 125 °C) | µA |
 | Leakage | 42 | 88 (FF, 125 °C) | pA |
 
-5.1 Gain & Phase Plot
-![AC Gain and Phase](images/ac_gain 5.2 Butterfly Curve
-![SRAM SNM Butterfly](images/butterTip** — If your image already lives online (e.g., GitHub raw link), embed directly:
-
+## 8 DC analysis Plot
 ![SRAM SNM Butterfly](https://raw.githubusercontent.com/Mukesh0035/6T-SRAM-Characterization/master/butter_image.png)
+
+## 9 Corner Analysis Plot
+![SRAM SNM Butterfly](https://raw.githubusercontent.com/Mukesh0035/6T-SRAM-Characterization/master/corner%20analysis.png)
+
 
