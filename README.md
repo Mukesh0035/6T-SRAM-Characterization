@@ -78,4 +78,9 @@ Static RAM stores data in a **bistable latch** rather than on a capacitor, elimi
 | Iread | 71 | 38 (SS, 125 °C) | µA |
 | Leakage | 42 | 88 (FF, 125 °C) | pA |
 
+5.1 Gain & Phase Plot
+![AC Gain and Phase](images/ac_gain 5.2 Butterfly Curve
+![SRAM SNM Butterfly](images/butterTip** — If your image already lives online (e.g., GitHub raw link), embed directly:
+
+![SRAM SNM Butterfly](https://raw.githubusercontent.com/Mukesh0035/6T-SRAM-Characterization/master/butter_image.png)
 
